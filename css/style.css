@@ -91,6 +91,32 @@ h2 {
     text-transform: uppercase;
 }
 
+/* bonus */
+.layover {
+    background-color: rgba(0,0,0,0);
+    transition: background-color 1s;
+    border-radius: 50px;   
+}
 
+.product:hover .layover{
+    background-color: rgba(0,0,0,0.5); 
+    border-radius: 50px;   
+}
 
+.product img {
+    transition: width 1s;
+}
 
+.product:hover img {
+    width: 100%;
+}
+
+.menu li a {
+    transition: font-size 1s;
+    transition: box-shadow 0.5s;
+}
+
+.menu li a:hover {
+    box-shadow: -5px 5px #2525253d;
+    font-size: 25px; 
+}
